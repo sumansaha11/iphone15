@@ -7,13 +7,17 @@ export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "suman-saha",
     project: "javascript-react"
-  }), sentryVitePlugin({
+  }),
+  sentryVitePlugin({
     org: "suman-saha",
     project: "iphone15"
-  }), sentryVitePlugin({
+  }),
+  sentryVitePlugin({
     org: "suman-saha",
     project: "iphone15"
   })],
+
+  base: "/iphone15",
 
   build: {
     sourcemap: true
