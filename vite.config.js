@@ -17,8 +17,6 @@ export default defineConfig({
     project: "iphone15"
   })],
 
-  base: "/iphone15",
-
   build: {
     sourcemap: true
   }

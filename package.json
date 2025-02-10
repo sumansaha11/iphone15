@@ -1,6 +1,5 @@
 {
   "name": "iphone15",
-  "homepage": "https://sumansaha11.github.io/iphone15",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -18,7 +15,6 @@
     "@react-three/fiber": "^8.17.10",
     "@sentry/react": "^8.43.0",
     "@sentry/vite-plugin": "^2.22.7",
-    "gh-pages": "^6.3.0",
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
